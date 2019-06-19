@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "moduleResolution": "node",
+    "module": "commonjs",
+    "sourceMap": true,
+    "experimentalDecorators": true,
+    "lib": [
+      "esnext",
+      "dom"
+    ]
+  },
+  "include": ["app/scripts/**/*"]
+}

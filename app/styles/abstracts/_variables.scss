@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:400,400i,700,700i");
+$raleway: "Raleway", Arial, sans-serif;
+
+// Base
+$font-size-root:          62.5%;       // html tag to make 1em equal 10px
+$font-size-base:          1.8rem;      // body tag
+$font-weight-base:        400;         // default weight
+$font-family-base:        $raleway;     // add your custom font-face here
+$border-radius-base:      .3rem;
+$line-height-base:        1.4;
+
+// Media queries
+$mq-a:                    360px;
+$mq-s:                    414px;
+$mq-t-max:                767px;
+$mq-t:                    768px;
+$mq-m-max:                1023px;
+$mq-m:                    1024px;
+$mq-ml-max:               1279px;
+$mq-ml:                   1280px;
+$mq-l:                    1400px;
+$mq-xl:                   1920px;
+
+// Colors
+$white: #fff;
+$black: #000;
+$dark: #29313c;
+$primary-color: #e6555a;
+$secondary-color: #df292f;
+
+// Animation
+$cubic: cubic-bezier(.62, .28, .23, .99);

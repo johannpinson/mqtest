@@ -1,0 +1,33 @@
+.result {
+  display: flex;
+  flex-direction: column;
+  margin-top: 4rem;
+
+  &__title {
+    padding: 2rem;
+    font-weight: 700;
+    background-color: $secondary-color;
+    border-top-left-radius: .2rem;
+    border-top-right-radius: .2rem;
+  }
+
+  &__content {
+    background: rgba(#ba1b21, .3);
+    background: rgba($secondary-color, .3);
+    border: .1rem solid $secondary-color;
+    border-bottom-right-radius: .2rem;
+    border-bottom-left-radius: .2rem;
+  }
+
+  &__line {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    border-bottom: .1rem solid $secondary-color;
+
+    &:last-child {
+      border-bottom: 0;
+    }
+  }
+}

@@ -1,0 +1,35 @@
+.button {
+  width: 100%;
+  margin-top: 2.5rem;
+  padding: 2rem 0;
+  font-weight: 700;
+  text-shadow: 0 -1px 0 rgba($black, .2);
+  background-color: $primary-color;
+  background-image: linear-gradient(
+    $primary-color,
+    darken($primary-color, 5%) 100%
+  );
+  border-radius: .2rem;
+  transition: all .7s $cubic;
+  user-select: none;
+
+  &:hover {
+    background-color: darken($primary-color, 5%);
+    background-image: linear-gradient(
+      darken($primary-color, 5%),
+      darken($primary-color, 10%) 100%
+    );
+  }
+
+  &:active {
+    background-color: darken($primary-color, 10%);
+    background-image: linear-gradient(
+      darken($primary-color, 10%),
+      darken($primary-color, 15%) 100%
+    );
+  }
+
+  span {
+    font-weight: 400;
+  }
+}

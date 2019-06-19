@@ -1,0 +1,32 @@
+.info {
+  &__button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 2.8rem;
+    height: 2.8rem;
+    color: transparent;
+    background-image: url("../assets/medias/info.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    cursor: help;
+
+    &:hover {
+      opacity: .8;
+    }
+
+    &:active,
+    &:focus {
+      opacity: .6;
+    }
+
+    &:focus {
+      outline: none;
+    }
+  }
+
+  &__text {
+    display: none;
+    margin: 1rem 0;
+  }
+}
