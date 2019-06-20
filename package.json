@@ -4,7 +4,7 @@
   "description": "MQTest.app is a simple tool to help identify which media queries your device responds to.",
   "scripts": {
     "start": "parcel app/views/index.html",
-    "build": "parcel build app/views/index.html"
+    "build": "parcel build app/views/index.html --no-source-maps"
   },
   "repository": {
     "type": "git",
