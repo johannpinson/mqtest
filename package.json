@@ -16,7 +16,7 @@
   "bugs": {
     "url": "https://github.com/johannpinson/mqtest/issues"
   },
-  "homepage": "https://github.com/johannpinson/mqtest#readme",
+  "homepage": "https://www.mqtest.app/",
   "devDependencies": {
     "@babel/core": "^7.4.5",
     "@babel/preset-env": "^7.4.5",
@@ -28,6 +28,7 @@
     "babelify": "^10.0.0",
     "browserify": "^16.2.3",
     "cssnano": "^4.1.10",
+    "cz-conventional-changelog": "^2.1.0",
     "del": "^4.1.1",
     "eslint": "^5.16.0",
     "eslint-config-airbnb-base": "^13.1.0",
@@ -50,6 +51,7 @@
     "gulp-uglify": "^3.0.2",
     "node-sass-tilde-importer": "^1.0.2",
     "parcel-bundler": "^1.12.3",
+    "parcel-plugin-sitemap": "^2.1.1",
     "sass": "^1.21.0",
     "stylelint": "^10.1.0",
     "stylelint-order": "^3.0.0",
